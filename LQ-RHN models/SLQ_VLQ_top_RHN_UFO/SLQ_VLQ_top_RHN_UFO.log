@@ -1,0 +1,165 @@
+# This file was automatically created by FeynRules 2.3.22
+# Mathematica version: 9.0 for Linux x86 (64-bit) (November 20, 2012)
+# Date: Mon 6 Feb 2023 19:04:56
+
+
+# 
+# This is the logfile for the model SLQ_VLQ_top_RHN
+
+# Authors: Arvind Bhaskar, Tanumoy Mandal, Subhadip Mitra
+# Model version: 1.0.0
+# Checking the Quantum numbers
+   * Electric charge defined.
+# Checking the Lagrangians
+   * All Lagrangians are ok.
+#
+# Particle definitions
+#
+
+   * No particles removed. All particles correspond to GenInt setup.
+
+# Automatically assigned PDG numbers
+   * Assigned PDG number 9000001 to particle ghA
+   * Assigned PDG number 9000002 to particle ghZ
+   * Assigned PDG number 9000003 to particle ghWp
+   * Assigned PDG number 9000004 to particle ghWm
+
+
+# Compulsory PDG codes:
+   * Class SM leptons complete.
+   * Class SM neutrinos complete.
+   * Class SM quarks complete.
+   * Class SM gauge bosons complete.
+#
+# Parameter definitions
+#
+
+   * All parameters are ok.
+
+
+# Vertices
+   * Calling FeynmanRules for 6 Lagrangians.
+   * Number of classes vertices: 117
+   * Number of flavored vertices: 143
+   * Saved vertices in InterfaceRun[ 1 ].
+   * Checked QNumber conservation.
+      - Quantum number GhostNumber conserved in all vertices.
+      - Quantum number LeptonNumber NOT conserved in the following vertices
+          {H, vebar, vre}
+          {H, vre, ve}
+          {H, vebar, vrm}
+          {H, vrm, ve}
+          {H, vebar, vrt}
+          {H, vrt, ve}
+          {H, vmbar, vre}
+          {H, vre, vm}
+          {H, vmbar, vrm}
+          {H, vrm, vm}
+          {H, vmbar, vrt}
+          {H, vrt, vm}
+          {H, vtbar, vre}
+          {H, vre, vt}
+          {H, vtbar, vrm}
+          {H, vrm, vt}
+          {H, vtbar, vrt}
+          {H, vrt, vt}
+          {S1, dbar, vre}
+          {S2, ubar, vre}
+          {S1bar, vre, d}
+          {S2bar, vre, u}
+          {S2, cbar, vrm}
+          {S1, sbar, vrm}
+          {S1bar, vrm, s}
+          {S2bar, vrm, c}
+          {S1, bbar, vrt}
+          {S2, tbar, vrt}
+          {S1bar, vrt, b}
+          {S2bar, vrt, t}
+          {W, vre, e}
+          {W, vrm, e}
+          {W, vrt, e}
+          {W, vre, mu}
+          {W, vrm, mu}
+          {W, vrt, mu}
+          {W, vre, ta}
+          {W, vrm, ta}
+          {W, vrt, ta}
+          {Wbar, ebar, vre}
+          {Wbar, ebar, vrm}
+          {Wbar, ebar, vrt}
+          {Wbar, mubar, vre}
+          {Wbar, mubar, vrm}
+          {Wbar, mubar, vrt}
+          {Wbar, tabar, vre}
+          {Wbar, tabar, vrm}
+          {Wbar, tabar, vrt}
+          {Z, vebar, vre}
+          {Z, vre, ve}
+          {Z, vebar, vrm}
+          {Z, vrm, ve}
+          {Z, vebar, vrt}
+          {Z, vrt, ve}
+          {Z, vmbar, vre}
+          {Z, vre, vm}
+          {Z, vmbar, vrm}
+          {Z, vrm, vm}
+          {Z, vmbar, vrt}
+          {Z, vrt, vm}
+          {Z, vre, vt}
+          {Z, vtbar, vre}
+          {Z, vrm, vt}
+          {Z, vtbar, vrm}
+          {Z, vrt, vt}
+          {Z, vtbar, vrt}
+          {V1, dbar, vre}
+          {V2, ubar, vre}
+          {V1, sbar, vrm}
+          {V2, cbar, vrm}
+          {V1, bbar, vrt}
+          {V2, tbar, vrt}
+          {V1bar, vre, d}
+          {V1bar, vrm, s}
+          {V1bar, vrt, b}
+          {V2bar, vre, u}
+          {V2bar, vrm, c}
+          {V2bar, vrt, t}
+      - Quantum number Q conserved in all vertices.
+      - Quantum number Y conserved in all vertices.
+   * particles.py written.
+   * parameters.py written.
+#
+# Vertex definitions
+#
+
+   * 143 vertices written.
+   * vertices.py written.
+#
+# Lorentz structure definitions
+#
+
+   * 20 lorentz structures written.
+   * lorentz.py written.
+#
+# Coupling definitions
+#
+
+   * 71 couplings written.
+   * couplings.py written.
+#
+# Coupling order definitions
+#
+
+   * 0 couplings orders written.
+   * coupling_orders.py written.
+#
+# Decay definitions
+#
+
+   * 13 decays written.
+   * decay.py not written
+#
+# CTCoupling definitions
+#
+
+   * 0 CTcouplings written.
+   * CT_couplings.py written.
